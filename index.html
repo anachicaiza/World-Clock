@@ -9,13 +9,43 @@
 </head>
 
 <body>
-    <label for="country" class="country" id="country">
-        <select name="country" id="country">
-            <option value="Spain" class="Spain">Spain</option>
-            <option value="Paris" class="Paris">Paris</option>
-            <option value="Italy" class="Italy">Italy</option>
+    <div class="container">
+        <h1>World Clock</h1>
+        <select id="city">
+            <option value="">Select a city..</option>
+            <option value="current">My current location</option>
+            <option value="Europe/London">London</option>
+            <option value="America/New_York">New York</option>
+            <option value="Pacific/Auckland">Auckland</option>
+
         </select>
-    </label>
+        <div class="cities">
+            <div class="city" id="los-angeles">
+                <div>
+                    <h2>Los Angeles</h2>
+                    <div class="date">March 16th 2026</div>
+                </div>
+                <div class="time">
+                    10:39:30
+                    <small>AM</small>
+                </div>
+            </div>
+            <div class="city" id="paris">
+                <div>
+                    <h2>Paris</h2>
+                    <div class="date">March 16th 2026</div>
+                </div>
+                <div class="time">
+                    6:46:50
+                    <small>PM</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>This project was coded by<strong>Ana Chicaiza</strong>and is open sourced on <a href=""
+            target="_blank">Github</a> </footer>
+    <script src="index.js"></script>
+
 </body>
 
 </html>
